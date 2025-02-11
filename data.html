@@ -30,21 +30,19 @@
 									<header class="main">
 										<h2>Data format</h2>
 									</header>
-                                    <p>
+                                    <p align="justify">
                                     The data of all the AIDA simulations are essentially in the same format of the IllustrisTNG runs, and follow the snapshot and group catalogue structure described on the <a href="https://www.tng-project.org/data/">TNG dedicated page</a> and in the TNG data release (<a href="https://arxiv.org/abs/1812.05609">Nelson et al. 2019</a>). The same helper scripts can thus be used to analyse them.
                                     </p>
                                     <h3>Snapshots</h3>
-                                    <p>
+                                    <p align="justify">
                                     For each run, we save <b>100 snapshots</b>. These include all particles and cells in the simulation, together with their properties. We have <b>20 "full" snapshots</b> containing detailed informations on the dark matter and baryonic particles/cells and 80 "mini" snap, where only the most important informations are saved. All files are in hdf5 format.
                                         The full snapshots are saved at redshifts:
                                     </p>
-                                    <p>
-                                    <b>
+                                    <p align="center">
                                         z=0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1, 1.5, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-                                    </b>
                                     </p>
                                     <h3>Group Catalogs</h3>
-                                    <p>
+                                    <p align="justify">
                                     For each snapshot, we have an associated group catalog that includes both FoF and Subfind objects. These catalogs are created on the fly by SUBFIND and are also saved in hdf5 format.
                                     </p>
 							</section>
